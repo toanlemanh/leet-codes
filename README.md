@@ -1,0 +1,1 @@
+This is the list of 3 easy solutions of several problems
