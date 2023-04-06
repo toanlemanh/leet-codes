@@ -1,3 +1,4 @@
+
 package leetcode;
 
 public class BinSearch704 {
@@ -19,3 +20,4 @@ public class BinSearch704 {
         }
     }
 }
+
