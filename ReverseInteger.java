@@ -24,7 +24,7 @@ public class ReverseInteger {
 
                 remainder = (temp % 10) + remainder * 10;
                 temp = temp / 10;
-                String str =
+                String str = "";
                 if ( remainder <= MIN || remainder >= MAX)
                     return 0;
             }
