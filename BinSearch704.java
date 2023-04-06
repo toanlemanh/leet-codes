@@ -1,6 +1,6 @@
 package leetcode;
 
-public class BinarySearch_704 {
+public class BinSearch704 {
     class Solution {
         public int search(int[] nums, int target) {
             int left = 0;
