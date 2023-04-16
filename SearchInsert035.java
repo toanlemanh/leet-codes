@@ -1,20 +1,20 @@
 package leetcode;
 
 public class SearchInsert035 {
-    class Solution {
+    
         public int searchInsert(int[] nums, int target) {
-            for ( int i = nums.length-1; i >= 0; i--){
-                if (nums [i] == target)
-                    return i;
-            }
-            // if not
-            // compare
-            for ( int i = nums.length-1; i >= 0; i--){
-                if ( nums[i] < target)
-                    return i+1;
-            }
-            return 0;
+            int left = 0; int right = nums.length - 1;
+         while ( left <= right ){
+             int mid = (left + right) / 2;  // để tránh
+             if ( nums[mid] == target )
+                 return mid;
+             else if ( nums[mid] < target )
+                 left = mid + 1;
+             else
+                 right = mid - 1;
+         }
+         return left;
 
         }
-    }
+    
 }
