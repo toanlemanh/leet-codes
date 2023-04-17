@@ -41,6 +41,8 @@ public class SearchInsert035 {
         int x = searchInsert(arr,10);
         System.out.println(x);
     }
+
+    
 }
 
 

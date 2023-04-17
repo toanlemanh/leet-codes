@@ -1,7 +1,6 @@
 package leetcode;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class SoritngSquare977 {
     public int[] sortedSquares(int[] nums) {
